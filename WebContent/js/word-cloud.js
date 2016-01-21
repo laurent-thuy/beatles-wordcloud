@@ -16,8 +16,6 @@ var svg = d3.select("#vis").append("svg").attr("width", w).attr("height", h);
 var vis = svg.append("g").attr("transform",
 		"translate(" + [ w >> 1, h >> 1 ] + ")");
 
-//update();
-
 window.onresize = function(event) {
 	update();
 };

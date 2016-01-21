@@ -10,21 +10,19 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<span class="navbar-brand">Which Beatles song is it?</span>
-			&nbsp;
-			&nbsp;
-			&nbsp;
-			&nbsp;
-			<img alt="" src="img/wip.gif" height="65">
+
+			<span class="navbar-brand">Which Beatles song is it?</span> &nbsp;
+			&nbsp; &nbsp; &nbsp; <img alt="" src="img/wip.gif" height="65">
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li id="refresh"><a href="#">shuffle <span
+			<ul class="nav navbar-nav navbar-right" data-toggle="collapse"
+				data-target="#navbar-collapse-1" aria-expanded="false">
+				<li><a href="#" id="refresh">shuffle <span
 						class="glyphicon glyphicon-refresh"></span>
 				</a></li>
-				<li id="next"><a href="#">next song <span
+				<li><a href="#" id="next">next song <span
 						class="glyphicon glyphicon-arrow-right"></span>
 				</a></li>
 			</ul>
