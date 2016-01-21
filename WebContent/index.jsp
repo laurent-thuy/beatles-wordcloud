@@ -7,7 +7,7 @@ and open the template in the editor.
 -->
 <html>
 <head>
-<title>TODO supply a title</title>
+<title>Beatles word cloud</title>
 <meta charset="UTF-8">
 <link rel="stylesheet"
 	href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
