@@ -1,8 +1,20 @@
+@font-face {
+	font-family: beatlesFont;
+	src: url("../fonts/BOOTLE__.TTF");
+}
+
 footer {
 	display: none;
 	text-align: center;
 }
 
-.navbar-brand{
-	font-weight: bold;
+.navbar {
+	font-family: beatlesFont;
+	/* 	font-weight: bold; */
+}
+
+#answer {
+	display: none;
+/* 	text-align: right; */
+	font-family: verdana;
 }

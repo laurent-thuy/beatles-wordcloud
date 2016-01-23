@@ -1,4 +1,4 @@
-var fill = d3.scale.category20b();
+var fill = d3.scale.category20c();
 
 var w = window.innerWidth, h = window.innerHeight;
 
@@ -13,8 +13,7 @@ var layout = d3.layout.cloud().timeInterval(Infinity).size([ w, h ]).fontSize(
 
 var svg = d3.select("#vis").append("svg").attr("width", w).attr("height", h);
 
-var vis = svg.append("g").attr("transform",
-		"translate(" + [ w >> 1, h >> 1 ] + ")");
+var vis = svg.append("g").attr("transform", "translate(" + [ w >> 1, h >> 1 ] + ")");
 
 window.onresize = function(event) {
 	update();
