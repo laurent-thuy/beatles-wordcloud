@@ -1,4 +1,4 @@
-Lyrics are in the form of a word cloud. Guess which song.
+Lyrics are in the form of a word cloud. Have a guess!
 
 
 With a little help from: <a href="https://github.com/mbostock/d3.git"

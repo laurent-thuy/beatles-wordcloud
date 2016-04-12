@@ -11,8 +11,8 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand next" href="#">Beatles word
-				cloud&nbsp;&nbsp;&nbsp;&nbsp;</a> <a class="navbar-brand" id="answer"></a>
+			<a class="navbar-brand next" href="#">Beatles words
+				&nbsp;&nbsp;&nbsp;&nbsp;</a> <a class="navbar-brand" id="answer"></a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->

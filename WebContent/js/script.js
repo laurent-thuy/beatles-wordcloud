@@ -6,7 +6,6 @@ $(document).ready(
 			var songFreq;
 			var w = window.innerWidth;
 			var h = window.innerHeight / 1.1;
-			var colorVariant;
 			var fill;
 
 			function makeCloud() {
@@ -24,7 +23,6 @@ $(document).ready(
 			}
 
 			function draw(words) {
-				console.log(fill);
 				d3.select("section").append("svg").attr("width", w).attr(
 						"height", h).append("g").attr("transform",
 						"translate(" + [ w >> 1, h >> 1 ] + ")").selectAll(
@@ -54,22 +52,24 @@ $(document).ready(
 
 			function setSong() {
 				var index = Math
-						.floor((Math.random() * songs.songs.length - 1));
+						.floor((Math.random() * songs.songs.length));
 				title = songs.songs[index].title;
 				songWords = songs.songs[index].words;
 				songFreq = songs.songs[index].freq;
 			}
 
 			function setColor() {
-				var ColorCategory = pickRandomProp(colorbrewer);
-				colorVariant = pickRandomProp(ColorCategory);
+				colorVariant = pickRandomColorVariant();
 				fill = d3.scale.ordinal().domain([ "foo", "bar", "baz" ])
 						.range(colorVariant);
 			}
 
-			function pickRandomProp(obj) {
-				var keys = Object.keys(obj)
-				return obj[keys[keys.length * Math.random() << 0]];
+			function pickRandomColorVariant() {
+				var colorVariants = [ "Purples", "Blues", "Reds", "Greys",
+						"Oranges", "Greens" ];
+				var colorVariantIndex = Math.floor(Math.random()
+						* (colorVariants.length));
+				return colorbrewer[colorVariants[colorVariantIndex]]["7"];
 			}
 
 			// update cloud if screen resize

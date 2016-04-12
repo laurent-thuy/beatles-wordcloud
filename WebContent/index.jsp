@@ -1,13 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
 <head>
-<title>Beatles word cloud</title>
+<title>Beatles words</title>
 <meta charset="UTF-8">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -28,6 +23,7 @@ and open the template in the editor.
 		<%@ include file="includes/footer.jsp"%>
 	</div>
 
+	<!-- scripts -->
 	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script
 		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
@@ -39,5 +35,6 @@ and open the template in the editor.
 	<script type="text/javascript" src="data/songs.js"></script>
 	<script type="text/javascript" src="jslib/colorbrewer.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<!-- end scripts -->
 </body>
 </html>

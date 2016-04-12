@@ -10,11 +10,9 @@ footer {
 
 .navbar {
 	font-family: beatlesFont;
-	/* 	font-weight: bold; */
 }
 
 #answer {
 	display: none;
-/* 	text-align: right; */
 	font-family: verdana;
 }
